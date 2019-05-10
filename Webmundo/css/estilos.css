@@ -1,0 +1,104 @@
+		.jumbotron {
+			background-color: #C0F0D0;
+			color: #000000;
+			padding: 100px 25px;
+			font-family: sans-seriff;
+			text-align: center
+		}
+		.container-fluid {
+			padding: 40px 50px;
+		}
+		.bg-grey {
+			background-color: #DCDCDC;
+		}
+		.panel {
+			border: 1px solid #08D0CD;
+		}
+		.panel:hover {
+			box-shadow: 3px 7px 30px #81F7BE;
+		}
+		.equipo .panel-heading {
+    		color: #CEF6EC;
+    		background-color: #CEF6EC;
+    		padding: 25px;
+   			border-bottom: 1px solid;
+    		border-top-left-radius: 5px;
+    		border-top-right-radius: 0px;
+    		border-bottom-left-radius: 0px;
+    		border-bottom-right-radius: 0px;
+		}
+		.panel-footer {
+    		background-color: #CEF6EC;
+		}
+		.panel-footer h4 {
+    		color: #0C32F5;
+    		font-size: 15px;
+		}
+		@media screen and (min-width:320px) {
+			img {
+				max-width:100px;
+			}
+		}
+		@media screen and (min-width:768px) {
+			img {
+				max-width:150px;
+			}
+		}
+		@media screen and (min-width:980px) {
+			img {
+				max-width:225px;
+			}
+		}
+		@media screen and (min-width:1200px) {
+			img {
+				max-width:300px;
+			}
+		}
+		.icono {
+			color:aquamarine;
+			font-size: 20px;
+		}
+		.menu {
+			background-color: #f0f8ff;
+			padding: 5px 0px 14px;
+			border: 0;
+			font-size: 12px;
+			line-height: 1.42;
+			letter-spacing: 2px;
+			font-family: sans-serif;
+		}
+		.menu .navbar-nav li a, .menu .navbar-brand {
+			color: 	#778899;
+		}
+		.menu .navbar-nav li a:hover, .menu .navbar-nav li.active a {
+			color: #f4511e;
+			background-color: 	#778899;
+		}
+		.menu .navbar-default .menu .navbar-toggle {
+		border-color: transparent;
+			color: 	#778899;
+		}
+		footer .glyphicon {
+			font-size: 30px;
+			margin-bottom: 10px;
+			color: #DAA520;
+		}
+		body {
+			font: 15px Lato,sans-serif;
+			line-height: 2.8;
+			color: #696969
+		}
+		h2 {
+			font-size: 24px;
+			text-transform: uppercase;
+			color: #6495ed;
+			font-weight: 600;
+			margin-bottom: 30px;
+		}
+		h4 {
+			font-size: 19px;
+			line-height: 1.375em;
+			color: #6708090;
+			font-weight: 400;
+			margin-bottom: 30px;
+		}
